@@ -7,12 +7,13 @@ import homeImage from "../../assets/home-img.png";
 
 function App() {
 
-  const NFTID = "rrkah-fqaaa-aaaaa-aaaaq-cai"
+  const NFTID = "rrkah-fqaaa-aaaaa-aaaaq-cai";
+  const PRINCIPALID = "agolx-rr7bb-ntvfu-e36kt-djlhp-yzfq5-uz5nw-wzuvx-gtqn6-26odg-eqe";
 
   return (
     <div className="App">
       <Header />
-      <Item id={NFTID} />
+      <Item id={NFTID} principal={PRINCIPALID}/>
       {/* <img className="bottom-space" src={homeImage} /> */}
       <Footer />
     </div>

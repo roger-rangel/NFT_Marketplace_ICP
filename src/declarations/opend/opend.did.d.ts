@@ -1,4 +1,4 @@
 import type { Principal } from '@dfinity/principal';
-import type { ActorMethod } from '@dfinity/agent';
-
-export interface _SERVICE {}
+export interface _SERVICE {
+  'mint' : (arg_0: Array<number>, arg_1: string) => Promise<Principal>,
+}
